@@ -108,7 +108,7 @@ server.ext("onPreResponse", (request, reply) => {
   }).then(appComponent => {
     reply(getMarkup(appComponent));
   });
-}
+});
 ~~~
 
 ##### client side rendering configuration
@@ -216,7 +216,7 @@ store.dispatch(configure({
     facebook:  '/evil_user_auth/facebook',
     google:    '/evil_user_auth/google_oauth2'
   }
-}).then(// ... render your app ... //
+})).then(/* render your app */);
 ~~~
 
 #### apiUrl
