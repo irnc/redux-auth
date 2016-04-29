@@ -173,7 +173,7 @@ store.dispatch(configure([
   isServer,
   cookies,
   currentLocation
-));
+}));
 ~~~
 
 ### Using multiple endpoints with redux-auth components
